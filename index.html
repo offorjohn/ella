@@ -383,7 +383,8 @@
         <div class="col-md-7 default info wow fadeInUp">
           <h4 style="color: #ff5a6e;">Why Choose StaffiPay Payroll and HRM?</h4>
           <h2 style="color: #0D99FF;">When you choose StaffiPay Payroll <br>and HRM, <br /> you benefit from a wide
-            <br>range of advantages <br />that will transform your workforce management experience:</h2>
+            <br>range of advantages <br />that will transform your workforce management experience:
+          </h2>
 
           <ul>
             <h5 style="color: #ff5a6e; font-size: 20px; font-weight: bold;">⦁ Integrated Payroll and HR: <p
@@ -975,23 +976,23 @@
 
                 <!-- Second Technology Box -->
                 <div class="technology-box" style="float: right; width: 45%; margin-left: 10px;">
-                  <h3 style="font-weight: bold;">Our Technology</h3>
+                  <h3 style="font-weight: bold;">Our technology</h3>
                   <ul style="list-style-type: none; padding: 0;">
                     <li style="margin-bottom: 8px; line-height: 1.6em;">
                       <span class="checkmark">✓</span>
+                      <span style="margin-left: 10px;">Payroll</span>
+                    </li>
+                    <li style="margin-bottom: 8px; line-height: 1.6em;">
+                      <span class="checkmark">✓</span>
+                      <span style="margin-left: 10px;">Time & Attendance</span>
+                    </li>
+                    <li style="margin-bottom: 8px; line-height: 1.6em;">
+                      <span class="checkmark">✓</span>
+                      <span style="margin-left: 10px;">Hiring & Unboarding</span>
+                    </li>
+                    <li style="margin-bottom: 8px; line-height: 1.6em;">
+                      <span class="checkmark">✓</span>
                       <span style="margin-left: 10px;">Applicant Tracking</span>
-                    </li>
-                    <li style="margin-bottom: 8px; line-height: 1.6em;">
-                      <span class="checkmark">✓</span>
-                      <span style="margin-left: 10px;">HR Records</span>
-                    </li>
-                    <li style="margin-bottom: 8px; line-height: 1.6em;">
-                      <span class="checkmark">✓</span>
-                      <span style="margin-left: 10px;">Benefits Admin</span>
-                    </li>
-                    <li style="margin-bottom: 8px; line-height: 1.6em;">
-                      <span class="checkmark">✓</span>
-                      <span style="margin-left: 10px;">Retirement Services</span>
                     </li>
 
                   </ul>
@@ -1022,7 +1023,7 @@
 
                 <!-- Second Technology Box -->
                 <div class="technology-box" style="float: right; width: 45%; margin-left: 10px;">
-                  <h3 style="font-weight: bold;">Our Technology</h3>
+                  <h3 style="font-weight: bold;">Our Tchnology</h3>
                   <ul style="list-style-type: none; padding: 0;">
                     <li style="margin-bottom: 8px; line-height: 1.6em;">
                       <span class="checkmark">✓</span>
@@ -1048,9 +1049,32 @@
 
 
                 <style>
+                  .technology-box-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    color: #ff5a6e;
+                    /* Adjust as needed */
+                    margin-top: 20px;
+                    /* Adjust spacing between technology boxes */
+                  }
+
+
+
+
+
                   technology-box {
+                    width: 45%;
+                    /* Initial width */
                     margin-bottom: 20px;
-                    /* Adjust margin bottom for spacing between boxes */
+                    /* Adjust spacing between technology boxes */
+                    padding: 15px;
+                    border: 1px solid #333;
+                    border-radius: 5px;
+                    background-color: #ffffff;
+                    transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+                    cursor: pointer;
+                    position: relative;
                   }
 
                   @media (max-width: 768px) {
@@ -1063,13 +1087,14 @@
                   }
 
                   .checkmark {
-                    font-size: 14px;
+                    font-size: 20px;
                     /* Adjust size of the checkmark */
                     line-height: 1;
                     /* Ensures checkmark stays centered vertically */
                     vertical-align: middle;
+                    
                     /* Aligns checkmark with text */
-                    color: #333;
+                    color: #fff;
                     /* Initial color */
                     transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
                     /* Transition for hover effect */
@@ -1077,6 +1102,19 @@
                     /* Cursor style on hover */
                     display: inline-block;
                     /* Ensures proper spacing with text */
+                    border: 1px solid #58e253;
+                    /* Border properties */
+                    border-radius: 100000%;
+                    /* Rounded border (creates a circle) */
+                    padding: 1px;
+                    background-color: #ff5a6e;
+                    /* Change background color on hover */
+                    border-color: #66cdaa;
+                    /* Change border color on hover */
+                    box-shadow: 0 0 10px rgba(168, 99, 99, 0.1);
+                    /* Add shadow on hover for depth effect */
+
+                    transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
                   }
 
                   .checkmark:hover {
