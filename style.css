@@ -1813,7 +1813,7 @@ body,
   -webkit-box-shadow: 0 0 10px #cccccc;
   -o-box-shadow: 0 0 10px #cccccc;
   box-shadow: 0 0 10px #cccccc;
-  color: #ff5a6e;
+  color: #18dc59;
   display: inline-block;
   font-size: 50px;
   height: 80px;
@@ -1834,6 +1834,7 @@ body,
 
 .features-area .features-items.less-icon .items-box.inc-cell .item .info {
   padding-left: 0;
+  color: #00b6f1;
 }
 
 .features-area .features-items .items-box.inc-cell .item .info a {
